@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script>
-  var url = window.location.href;
-  url = url.split('.html');
-  window.history.replaceState(null, null, url);
-</script>
+<head>
 
     <style>
-      .zar{
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        border: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        transition: opacity 0.15s;
-      }
-      .zar:hover{
-        opacity: 0.7;
-      }
+        .zar {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border: none;
+            padding: 10px 20px;
+            transition: opacity 0.15s;
+        }
+
+        .zar:hover {
+            opacity: 0.7;
+        }
     </style>
-  </head>
-  <body>
-    <a href="clickzar.html"> <button class="zar">zar</button> </a>
-  </body>
+</head>
+<body>
+    <a href="/clickzar"><button class="zar">zar</button></a>
+</body>
 </html>
