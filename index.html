@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+  var url = window.location.href;
+  url = url.split('.html');
+  window.history.replaceState(null, null, url);
+</script>
+
     <style>
       .zar{
         background-color: rgb(0, 0, 0);
